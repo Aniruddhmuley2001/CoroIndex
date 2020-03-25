@@ -93,6 +93,7 @@ body{
 .container .topnav a:hover {
     background-color: #F0F8F1;
     color: black;
+    margin: 0 -1px;
 }
  
 /* Add an active class to highlight the current page */
