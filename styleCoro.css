@@ -317,21 +317,21 @@ body{
 }
 
 .imageC {
+    height: 100%;
+    width: 100%;
     display: inline-block;
-    width: auto;
-    height: auto;
 }
 
 .imageF {
-    display: block;
-    width: auto;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
 
 .imageB {
-    display: block;
-    width: auto;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
   
 .overlayC {
@@ -433,11 +433,11 @@ body{
     font-size: large;
 }
 
-/*#Treatment img{
-    height: 100%;
-    width: 100%;
+#Treatment img{
+    /*height: 100%;
+    width: 100%;*/
     display: inline-block;
-}*/
+}
 #Treatment .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} 
 
 #Precaution{
@@ -559,6 +559,7 @@ body{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    display: inline-block;
 }
 
 #Recovery .flex-container > div .storyInd {
@@ -568,6 +569,7 @@ body{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    display: inline-block;
 }
 
 #Recovery .flex-container > div .storyIran {
@@ -577,6 +579,7 @@ body{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    display: inline-block;
 }
 
 #Recovery .storyUS{
