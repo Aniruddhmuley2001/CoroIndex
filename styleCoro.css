@@ -276,7 +276,6 @@ body{
 
 #History{
     display: block;
-    background-image: url('\images\marketWuhan.jpg');
     text-align: justify;
     border: 5px solid #c416e7;
     border-radius: 10px;
@@ -439,7 +438,7 @@ body{
     width: 100%;*/
     display: inline-block;
 }
-#Treatment .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} 
+/*#Treatment .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} */
 
 #Precaution{
     display: block;
@@ -452,7 +451,7 @@ body{
     color: cornsilk;
     font-size: large;
 }
-#Precaution .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} 
+/*#Precaution .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} */
 
 #MythsFacts{
     display: block;
