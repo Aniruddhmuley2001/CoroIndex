@@ -72,16 +72,16 @@ var slideIndexMyth = 0;
 showSlidesMyth();
 
 function showSlidesMyth() {
-  var j;
+  var i;
   var slidesMyth = document.getElementsByClassName("mySlidesMyth");
   var dotsMyth = document.getElementsByClassName("dot");
-  for (j = 0; j < slidesMyth.length; j++) {
-    slidesMyth[j].style.display = "none";  
+  for (i = 0; i < slidesMyth.length; i++) {
+    slidesMyth[i].style.display = "none";  
   }
   slideIndexMyth++;
   if (slideIndexMyth > slidesMyth.length) {slideIndexMyth = 1}    
-  for (j = 0; j < dotsMyth.length; j++) {
-    dotsMyth[j].className = dotsMyth[j].className.replace(" active", "");
+  for (i = 0; i < dotsMyth.length; i++) {
+    dotsMyth[i].className = dotsMyth[i].className.replace(" active", "");
   }
   slidesMyth[slideIndexMyth-1].style.display = "block";  
   dotsMyth[slideIndexMyth-1].className += " active";
